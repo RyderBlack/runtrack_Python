@@ -19,7 +19,13 @@ class Character():
         self.x -= 1
         return self.x
     
+    def position(self):
+        return (self.x, self.y)
+    
 char01 = Character(22,33)
+print(char01.position())
+char01.move_down()
+print(char01.position())
 
-print(char01.move_down())
-print(char01.move_right())
+char01.move_right()
+print(char01.position())
