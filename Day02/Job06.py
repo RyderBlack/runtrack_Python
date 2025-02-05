@@ -1,4 +1,4 @@
-class Order():
+class Order:
     def __init__(self, order_number):
         self.__order_number = order_number
         self.__ordered_dishes = {}

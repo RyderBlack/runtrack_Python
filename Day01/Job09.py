@@ -1,4 +1,4 @@
-class Product():
+class Product:
     def __init__(self, name, priceHT, VAT):
         self.name = name 
         self.priceHT = priceHT 

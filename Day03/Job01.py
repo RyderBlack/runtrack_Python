@@ -1,4 +1,4 @@
-class City():
+class City:
     def __init__(self, city_name, nb_people):
         self.__city_name = city_name
         self.__nb_people = nb_people
@@ -19,7 +19,7 @@ class City():
         return f"For the city of {self.__city_name}, there are about {self.__nb_people} habitants."
         
 
-class Netizen():
+class Netizen:
     def __init__(self, netizen_name, netizen_age, netizen_city):
         self.__netizen_name = netizen_name
         self.__netizen_age = netizen_age

@@ -1,4 +1,4 @@
-class Operations():
+class Operations:
     def __init__(self):
         self.number01 = 12
         self.number02 = 3
